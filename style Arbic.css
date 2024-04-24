@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sora;
+}
+
+
+.text-service h4 {
+  font-size: 20px !important;
+}
+.text-service h2{
+  font-size: 25px !important;
+}
+.about-div .about-subtitle {
+  direction: rtl !important;
+}
