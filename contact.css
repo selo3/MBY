@@ -124,6 +124,7 @@
   .contact .contact-container  .formbox .inputbox input:focus ~ span,
   .contact .contact-container  .formbox .inputbox textarea:focus ~ span,
   .contact .contact-container  .formbox .inputbox input:valid ~ span,
+  .contact .contact-container  .formbox .inputbox select:valid ~ span,
   .contact .contact-container  .formbox .inputbox textarea:valid ~ span{
     transform: translateY(-20px);
     font-size: 12px;
