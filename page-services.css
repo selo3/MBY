@@ -35,6 +35,15 @@
 }
 .benefits i {
     font-size: 25px;
+    animation: spin-roll  1s  infinite forwards ;
+}
+@keyframes spin-roll{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 .content-text button{
     position: relative;
@@ -48,6 +57,18 @@
     font-weight: 500;
     padding: 12px;
     margin: 20px 0;
+}
+
+.content-text button::before{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    transform: rotate(25deg);
+    color: #fff;
+    z-index: 10;
+    left: 10%;
 }
 .content-text button a{
     color: #fff;
