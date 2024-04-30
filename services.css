@@ -86,10 +86,11 @@
 
 .services .card-hover__link {
   color: #fff;
-  font-size: 10px;
+  font-size: 13px;
   position: absolute;
   border-radius: 7px;
   border: 2px solid #fff;
+  font-weight: 800;
   left: 35%;
   bottom: 10px;
   padding: 10px;
@@ -278,7 +279,7 @@
 }
 .services .card-hover__link {
   color: #fff;
-  font-size: 5px;
+  font-size: 10px;
   position: absolute;
   border-radius: 7px;
   border: 2px solid #fff;
@@ -290,16 +291,3 @@
   bottom: -15px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
