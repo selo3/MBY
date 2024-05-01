@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "sora", sans-serif;
 }
 .services {
   padding: 25px;
@@ -24,6 +26,7 @@
   font-weight: 400;
   text-align: center;
   width: 800px;
+  font-weight: 800;
   font-style: normal;
   margin: 10px auto 45px !important;
 }
@@ -31,9 +34,8 @@
   grid-template-areas: "service-one  service-tow service-three service-four" "service-one  service-tow service-three service-four";
   display: grid;
   justify-content: center;
-
   margin: 20px 0 120px;
-  gap: 25px;
+  gap: 40px;
   z-index: 12;
 }
 .card-services {
@@ -63,7 +65,7 @@
   grid-area: service-three;
   background: url("image/services/ser1/1.png");
   background-size: cover;
-  top: 100px;
+  /* top: 100px; */
 
   background-repeat: no-repeat;
 }
@@ -71,7 +73,7 @@
   grid-area: service-one;
   background: url("image/services/ser3/3.png");
   background-size: cover;
-  top: 100px;
+  /* top: 100px; */
 }
 .card-services:nth-child(3) {
   grid-area: service-four;
@@ -89,11 +91,19 @@
   font-size: 13px;
   position: absolute;
   border-radius: 7px;
-  border: 2px solid #fff;
+  border: 2px solid transparent;
+  background-color: #09c1c8;
   font-weight: 800;
-  left: 35%;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 10px;
   padding: 10px;
+  transition: 1s;
+}
+.services .card-hover__link:hover{
+  background-color: #f7f9fa;
+  color: #09c1c8;
+  transition: 1s;
 }
 
 .text-service {
@@ -106,6 +116,8 @@
   height: 190px;
   color: #fff;
   top: 185px;
+  transition: 1s;
+
   z-index: 2;
   border-radius: 0 0 12px 12px;
 }
@@ -127,11 +139,15 @@
   background-color: rgb(23, 40, 60);
   border-radius: 50%;
   position: absolute;
-  bottom: -79px;
-  z-index: -1;
+  bottom: 0px;
+  z-index: -5;
   left: 0px;
   opacity: 0;
 }
+.card-services:hover .text-service::after{
+  bottom: -100px;
+}
+
 .card-services:hover .text-service {
   top: 0;
   transition: 1s;
@@ -152,13 +168,13 @@
 
 .text-service h2 {
   font-size: 17px !important;
-  margin: 0px 0 20px 0 !important;
   color: #fff;
   font-weight: 600;
 }
 .text-service h4 {
   margin-bottom: 20px;
   font-size: 13px;
+  padding: 10px 0 0 0 ;
 }
 @media screen and (max-width: 1150px) {
   .grid-services {
@@ -179,115 +195,29 @@
     font-size: 35px !important;
   }
 @media screen and (max-width: 650px) {
- .card-services{
-  width: 180px;
-  height: 250px;
- }
+ 
   .text-service {
-    height: 125px;
-    top: 120px;
+    height: 182px;
+    top: 193px;
   }
   .text-service h2 {
-    font-size: 10px !important;
-    margin: 0px 0 0px 0 !important;
-    position: absolute;
-    top: -28px;
-    width: 130px;
+    font-size: 17px !important;
     left: 14%;
     font-weight: 900;
 }
 .card-services:hover .text-service h2{
   top: 10px;
 }
-.text-service::before {
-  content: "";
-  width: 100%;
-  height: 147px;
-  top: -55px;
+
+
 }
-.text-service::after {
-  content: "";
-  width: 100%;
-  height: 147px;
-  top: 43px;
-}
-.text-service h4 {
-  margin-bottom: 10px;
-  font-size: 10px;
-}
-.services .card-hover__link {
-  color: #fff;
-  font-size: 5px;
-  position: absolute;
-  border-radius: 7px;
-  border: 2px solid #fff;
-  left: 35%;
-  bottom: 10px;
-  padding: 6px;
-}
-}
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 570px) {
   .services .title-service {
-    width: 350px;
+    width: 300px;
     font-size: 25px !important;
   }
   .grid-services {
-    grid-template-areas: "service-one  service-tow" "service-three service-four";
+    grid-template-areas: "service-one"  "service-tow" "service-three" "service-four";
     gap: 20px;
   }  
-}
-@media screen and (max-width: 420px) {
-  
-  .services .title-service {
-    width: 280px;
-  }
- .card-services{
-  width: 150px;
-  height: 205px;
- }
-  .text-service {
-    height: 102px;
-    top: 100px;
-  }
-  .text-service h2 {
-    font-size: 9px !important;
-    margin: 0px 0 0px 0 !important;
-    position: absolute;
-    top: -28px;
-    width: 100px;
-    left: 14%;
-    font-weight: 900;
-}
-.card-services:hover .text-service h2{
-  top: 10px;
-}
-.text-service::before {
-  content: "";
-  width: 100%;
-  height: 100px;
-  top: -45px;
-}
-.text-service::after {
-  content: "";
-  width: 100%;
-  height: 100px;
-  top: 37px;
-}
-.text-service h4 {
-  margin-bottom: 10px;
-  font-size: 9px;
-}
-.services .card-hover__link {
-  color: #fff;
-  font-size: 10px;
-  position: absolute;
-  border-radius: 7px;
-  border: 2px solid #fff;
-  left: 35%;
-  bottom: 10px;
-  padding: 6px;
-}
-.card-services:hover .card-hover__link {
-  bottom: -15px;
-}
 }

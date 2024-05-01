@@ -15,3 +15,41 @@
 .about-div .about-subtitle {
   direction: rtl !important;
 }
+.text-service h2{
+  font-size: 22px !important;
+}
+.text-service h4 {
+  margin-bottom: 20px !important;
+  font-size: 17px !important;
+  padding: 10px 10px 0 !important;
+}
+
+.services .card-hover__link {
+  color: #fff;
+  font-size: 15px !important;
+  position: absolute;
+  border-radius: 7px;
+  border: 2px solid transparent;
+  background-color: #09c1c8;
+  font-weight: 800;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  padding: 5px 18px !important;
+  transition: 1s;
+}
+.single-cta i {
+  color: var(--maincolor);
+  font-size: 30px;
+  float: right !important;
+  margin-top: 8px;
+  padding-left: 20px !important;
+}
+
+.about-div .about-subtitle p {
+  font-size: 23px !important;
+  text-align: start;
+  font-weight: 900 ;
+  line-height: 52px !important;
+  color: #e1d8d8 !important;
+}
