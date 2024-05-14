@@ -1,3 +1,6 @@
+.service-page{
+    position: relative;
+}
 .contenet-services{
     display: flex;
     justify-content: space-between;
@@ -7,12 +10,14 @@
 }
 .image-service{
     width: 1800px ;
+    text-align: center;
+
 }
 .image-service img {
-    width: 100% ;
+    border-radius: 10px;
+    width: 400px ;
 }
 .content-text{
-    /* display: flex; */
     flex-direction: column;
     justify-content: space-around;
     gap: 40px;
@@ -32,6 +37,7 @@
     display: flex;
     align-items: center;
     padding: 10px;
+    gap: 10px;
 }
 .benefits i {
     font-size: 25px;
@@ -99,8 +105,97 @@
     font-size:24px ;
     }
     .content-text p {
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px;
         margin-right: 20px;
     }
 }
+
+.img-section{
+    width: 100%;
+    height: 70vh;
+    background: url('image/services/se1/1.png') fixed;
+    background-position:center; 
+    background-size: cover;
+
+}
+.description-service {
+    display: flex;
+    justify-content: space-around;
+    width: 480px;
+    height: 179px;
+    background-color: rgb(255 255 255);
+    box-shadow: 9px 8px 30px -4px rgb(64 71 73);
+    position: absolute;
+    top: -140px;
+    font-weight: 900;
+    line-height: 2;
+    border-left: 8px double #17283c;
+    color: #17283c;
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    left: 60px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.description-service:hover{
+    color: #fff;
+    transition: 0.5s;
+    border-left: 8px double #fff;
+    background-color: #17283c;
+}
+.overly{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #17283cd6;
+    justify-content: center;
+}
+.overly h2{
+    font-size: 55px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 610px){
+    .description-service{
+        width: 80%;
+        font-size: 18px;
+        left: 50%;
+        top: -300px;
+        /* margin: 0 20px; */
+        text-align: center;
+    border-left: 0 double #17283c;
+    border-bottom: 8px double #17283c;
+    transform: translateX(-50%) !important;
+
+
+        
+    }
+    .description-service:hover{
+    border-bottom: 8px double #fff;
+    border-left: 0 double #17283c;
+
+    }
+    .overly h2{
+        font-size: 45px;
+    }
+    .img-section{
+    height: 75vh;
+    }
+    .overly{
+        padding-top: 70px;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
