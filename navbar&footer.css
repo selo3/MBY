@@ -533,13 +533,6 @@ a {
   width: 50px;
   background: var(--maincolor);
 }
-
-/* .footer-widget ul li {
-  display: inline-block;
-  float: left;
-  width: 50%;
-  margin-bottom: 12px;
-} */
 .footer-widget ul li a:hover{
   color: var(--maincolor);
 }
@@ -603,8 +596,6 @@ li a {
   font-size: 18px;
   color: #878787;
 }
-
-
 .icons img {
   width: 50px;
 }
@@ -630,61 +621,6 @@ li a {
   background-size: contain;
   /* right: 0px; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -801,6 +737,9 @@ width: 350px;
 font-size: 16px;
 
   }
+  .columns.is-mobile {
+    display: inline-block !important;
+}
   .landing .menu-item1{
     width: 90px;
     font-size: 16px;
