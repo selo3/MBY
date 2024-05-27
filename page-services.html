@@ -137,23 +137,50 @@
 
 
 
-
-     <div class="container">
-      <div class="left">
-        <div class="header">
-          <h2 class="animation a1">Welcome Back</h2>
-          <h4 class="animation a2">you can select your service from here</h4>
-        </div>
-        <div class="form">
-          <input type="text" class="form-field animation a3" placeholder="Name">
-          <input type="email" class="form-field animation a3" placeholder="Email Address">
-          <input type="text" class="form-field animation a4" placeholder="analysis and design">
-          <input type="text" class="form-field animation a3" placeholder="your Number">
-          <button class="animation a6" >send</button>
-        </div>
+     
+     <section class="select-sevice">
+    
+      <h3>you can select your service from here</h3>
+      <form>
+      <div class="group">
+        <input type="text"><span class="highlight"></span><span class="bar"></span>
+        <label>Name</label>
       </div>
-      <div class="right"></div>
-    </div>
+      <div class="group">
+        <input type="email"><span class="highlight"></span><span class="bar"></span>
+        <label>Email</label>
+      </div>
+      <div class="group">
+        <input type="text"><span class="highlight"></span><span class="bar"></span>
+        <label>Phone</label>
+      </div>
+      <div class="group">
+        <select type="email">
+          <option></option>
+          <option data-i18n="service1"></option>
+          <option data-i18n="service2"></option>
+          <option data-i18n="service3"></option>
+          <option data-i18n="service4"></option>
+          <option data-i18n="service5"></option>
+          <option data-i18n="service6"></option>
+          <option data-i18n="service7"></option>
+          <option data-i18n="service8"></option>
+          <option data-i18n="service9"></option>
+          <option data-i18n="service10"></option>
+          <option data-i18n="service11"></option>
+          <span class="highlight"></span><span class="bar"></span></select>
+          <label>Select Service</label>
+        </div>
+        <div class="group">
+          <textarea> </textarea><span class="highlight"></span><span class="bar"></span>
+          <label>leave your message here</label>
+        </div>
+        <button type="button" class="button buttonBlue">Send
+          <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+        </button>
+      </form>
+     
+  </section>
     
 
 
@@ -296,17 +323,22 @@
                 </div>
           </div>
       </div>
-  </footer>
-  <script src="https://cdn.lordicon.com/lordicon.js"></script>
-
+    </footer>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    
+    
       <script src="index.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script src="page-service.js"></script>
 
-       <!-- animation on scroll cdn  -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <!-- Swiper JS -->
-  <script>
-    AOS.init();
-  </script>
+      <!-- animation on scroll cdn  -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <!-- Swiper JS -->
+      <script>
+        AOS.init();
+        </script>
 </body>
 </html>
