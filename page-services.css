@@ -301,6 +301,7 @@ select:focus ~ .highlight ,
 /* Button modifiers */
 
 .buttonBlue {
+    border-radius: 10px;
   /* text-shadow: 1px 1px 0 rgba(39, 110, 204, .5); */
 }
 
