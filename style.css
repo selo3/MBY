@@ -86,7 +86,7 @@ h2 {
 }
 .landing .Ourvision,
 .landing span {
-  font-size: 20px !important;
+  font-size: 30px !important;
   color: #fff;
   font-weight: 800;
   display: inline;
@@ -582,9 +582,9 @@ border-radius: 25px;
     height: 100px;
     width: 25%;
   }
-  .landing h1,
-  .landing span {
-    font-size: 22px;
+  .landing .Ourvision,
+.landing span {
+    font-size: 20px !important;
   }
   .landing-text {
     width: 85%;
@@ -645,10 +645,7 @@ border-radius: 25px;
   .landing-text p {
     font-size: 25px;
   }
-  .section-about{
-    /* padding: 20px; */
-    
-  }
+ 
   .about-div h4{
     font-size: 40px;
     text-align: center;
