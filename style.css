@@ -627,6 +627,11 @@ border-radius: 25px;
     width: 90px;
     height: 90px;
   }
+  .swiper-slide-me {
+    background-size: 168% 67%;
+    background-color: #c1bfbc;
+  }
+ 
   .here-card {
     flex-direction: column;
     gap: 20px;

@@ -448,6 +448,7 @@ a {
   font-size: 30px;
   float: left;
   margin-top: 8px;
+  color: #09C8C1;
 }
 .cta-text {
   padding-left: 15px;
@@ -497,7 +498,7 @@ a {
   text-align: center;
 }
 .footer-social-icon a {
-  color: #fff;
+  color: #09C8C1;
   font-size: 16px;
   /* margin-right: 15px; */
 }
@@ -507,6 +508,8 @@ a {
   text-align: center;
   line-height: 38px;
   border-radius: 50%;
+  border: 2px solid;
+  margin: 8px 5px;
 }
 .facebook-bg{
   background: #3B5998;
@@ -588,9 +591,13 @@ a {
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
+  color: #878787;
 }
- li:hover a{
+ li:hover a , footer li i{
   color: #09C8C1;
+}
+.fa-arrow-right:before {
+  margin-right: 3px !important;
 }
 li a {
   font-size: 18px;

@@ -172,11 +172,14 @@ form {
 	margin-bottom: 45px; 
 }
 
+
+
+
+
 input , textarea ,select {
 	font-size: 18px;
 	padding: 10px 10px 10px 5px;
-	-webkit-appearance: none;
-	display: block;
+    display: block;
 	background: #fafafa;
 	color: #636363;
 	width: 100%;
@@ -420,4 +423,4 @@ select:focus ~ .highlight ,
         display: block;
     }
 
-}
+
