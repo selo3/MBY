@@ -428,7 +428,7 @@ h2 {
   margin-bottom: 10px;
   }
 
-.card1 h1 {
+.card1 h6 {
   font-size: 17px;
   font-weight: 600;
 }
@@ -662,7 +662,7 @@ border-radius: 25px;
     width: 190px;
     margin-bottom: 10px;
   }
-  .div1 .card1 h1{
+  .div1 .card1 h6{
     font-size: 15px;
   }
   .card1 h2{
