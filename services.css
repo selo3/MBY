@@ -121,6 +121,10 @@
 .container-card {
   min-height:520px ;
 }
+.services h1 {
+  width: 90%;
+}
+
 }
 /* .grid-services {
   grid-template-areas: "service-one  service-tow service-three service-four" "service-one  service-tow service-three service-four";
