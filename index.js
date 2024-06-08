@@ -244,7 +244,7 @@ window.addEventListener("scroll" , function(){
         typing3:"نحو مستقبل متطور بحلول عملية وذكية",
         typing4:"ابتكارات تلامس الواقع، لحياة يومية أكثر تطورًا",
         Ourvision:"للغد ",
-        Ourvisionspan:" رؤيتنا في MBV",
+        Ourvisionspan:"MBV رؤيتنا في",
         TitleArticles:"مدونة Made By Vision",
         SubtitleArticles:"محتواك الرائع من المصدر",
         seemorecard:"رؤية المزيد...",
