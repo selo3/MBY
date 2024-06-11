@@ -53,3 +53,6 @@
   line-height: 52px !important;
   color: #e1d8d8 !important;
 }
+.fa-arrow-right:before {
+  margin-left: 3px !important;
+}
